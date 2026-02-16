@@ -1,8 +1,11 @@
 {
-  "name": "@hexlet/code",
+  "name": "hexlet-brain-games-serdar",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/serdarsabreder/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/serdarsabreder/frontend-project-44/actions)",
+  "description": "Educational brain game",
   "main": "index.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +13,8 @@
     "type": "git",
     "url": "git+https://github.com/serdarsabreder/frontend-project-44.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["brain", "games", "hexlet"],
+  "author": "serdar",
   "license": "ISC",
   "type": "module",
   "bugs": {
@@ -19,3 +22,4 @@
   },
   "homepage": "https://github.com/serdarsabreder/frontend-project-44#readme"
 }
+

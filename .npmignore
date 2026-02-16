@@ -1,0 +1,13 @@
+.github/
+.github/**/*
+Makefile
+package-lock.json
+node_modules/
+*.log
+*.tmp
+*.tgz
+*.tar.gz
+**/*.md
+!**/README.md
+
+
