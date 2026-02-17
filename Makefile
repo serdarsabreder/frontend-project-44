@@ -1,12 +1,19 @@
-.PHONY: install brain-games
+.PHONY: install lint test brain-games publish
 
 install:
 	npm ci
 
-brain-games:
-	node bin/brain-games.js
+lint:
+	@echo "Запуск ESLint..."
+	@npx eslint .
 
-publish:
-	npm publish --dry-run	
+test:
+	@npm test
+
+brain-games:
+	@node bin/brain-games.js
+
+publish: lint test
+	npm publish --dry-run
 
 
