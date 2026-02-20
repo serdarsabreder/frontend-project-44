@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import readline from 'node:readline'; // Используем префикс node:
-import { stdin as input, stdout as output } from 'node:process'; // Используем префикс node:
+import readline from 'node:readline'; 
+import { stdin as input, stdout as output } from 'node:process'; 
 
 const rl = readline.createInterface({ input, output });
 
