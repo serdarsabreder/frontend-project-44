@@ -1,12 +1,14 @@
 {
-  "name": "hexlet-brain-games-serdar",
+  "name": "component-project-frontend",
   "version": "1.1.0",
   "description": "Educational brain game",
   "main": "index.js",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "scripts": {
+    "start": "node ./bin/brain-even.js",
     "lint": "npx eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

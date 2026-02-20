@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "width": 80,
+  "height": 24,
+  "timestamp": 1708416000,
+  "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"},
+  "command": "brain-even",
+  "title": "Brain Even Game Demo",
+  "stdout": [
+    [0.0, "\u001b[32mWelcome to the Brain Games!\u001b[0m\n"],
+    [1.0, "May I have your name? \u001b[33mserdar\u001b[0m\n"],
+    [2.0, "Hello, serdar!\n"],
+    [3.0, "Answer \"yes\" if the number is even, otherwise answer \"no\".\n"],
+    [4.0, "Question: \u001b[1m92\u001b[0m\n"],
+    [5.0, "Your answer: \u001b[36myes\u001b[0m\n"],
+    [6.0, "Correct!\n\n"],
+    [7.0, "Question: \u001b[1m21\u001b[0m\n"],
+    [8.0, "Your answer: \u001b[36mno\u001b[0m\n"],
+    [9.0, "Correct!\n\n"],
+    [10.0, "Question: \u001b[1m31\u001b[0m\n"],
+    [11.0, "Your answer: \u001b[36mno\u001b[0m\n"],
+    [12.0, "Correct!\n\n"],
+    [13.0, "Congratulations, serdar!\n\n"],
+    [15.0, "\u001b[32m--- NEW GAME ---\u001b[0m\n\n"],
+    [16.0, "Welcome to the Brain Games!\n"],
+    [17.0, "May I have your name? \u001b[33malice\u001b[0m\n"],
+    [18.0, "Hello, alice!\n"],
+    [19.0, "Answer \"yes\" if the number is even, otherwise answer \"no".\n"],
+    [20.0, "Question: \u001b[1m44\u001b[0m\n"],
+    [21.0, "Your answer: \u001b[36mno\u001b[0m\n"],
+    [22.0, "'no' is wrong answer ;(. Correct answer was 'yes'.\n"],
+    [23.0, "Let's try again, alice!\n"]
+  ]
+}
+
