@@ -9,7 +9,7 @@ const rl = readline.createInterface({ input, output });
 const isEven = (num) => num % 2 === 0;
 
 const askQuestion = () => {
-  return Math.floor(Math.random() * 100); // Случайное число от 0 до 99
+  return Math.floor(Math.random() * 100); 
 };
 
 const playGame = () => {
