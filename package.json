@@ -8,6 +8,7 @@
     "brain-even": "bin/brain-even.js"
   },
   "scripts": {
+    "brain-calc": "node bin/brain-calc.js",
     "start": "node ./bin/brain-even.js",
     "lint": "npx eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
