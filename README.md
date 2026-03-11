@@ -1,3 +1,5 @@
+Brain-gcd demo :      https://asciinema.org/a/aVBApPT6B5OJjhsL
+
 Brain-calc demo :     https://asciinema.org/a/8MWAGNp6zhkNC6t2   
 
 Cсылка для игры Brain-even: https://asciinema.org/connect/eb641f39-15a7-4b70-b4da-91159673c60a
