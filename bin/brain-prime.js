@@ -21,24 +21,22 @@ function brainPrime() {
   console.log(`Hello, ${name}!`);
   console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
 
-  const roundsToWin = 3;
+  // Генерируем одно случайное число
+  const number = Math.floor(Math.random() * 99) + 2;
+  console.log(`Question: ${number}`);
 
-  for (let round = 1; round <= roundsToWin; round++) {
-    const number = Math.floor(Math.random() * 99) + 2;
-    console.log(`Question: ${number}`);
-    const userAnswer = readlineSync.question('Your answer: ').trim().toLowerCase();
-    const correctAnswer = isPrime(number) ? 'yes' : 'no';
+  // Получаем ответ пользователя
+  const userAnswer = readlineSync.question('Your answer: ').trim().toLowerCase();
+  const correctAnswer = isPrime(number) ? 'yes' : 'no';
 
-    if (userAnswer === correctAnswer) {
-      console.log('Correct!');
-    } else {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
-      console.log(`Let's try again, ${name}!`);
-      return;
-    }
+  // Проверяем ответ и выводим результат
+  if (userAnswer === correctAnswer) {
+    console.log('Correct!');
+    console.log(`Congratulations, ${name}!`);
+  } else {
+    console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
+    console.log(`Let's try again, ${name}!`);
   }
-
-  console.log(`Congratulations, ${name}!`);
 }
 
 brainPrime();

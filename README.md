@@ -1,4 +1,4 @@
-Brain-prime demo :     https://asciinema.org/a/NHmGD1GZVYobm9Ir  (brief descrition: after three correct answers the game  finishes with congratulations. In case of wrong answer the game lets you try again.)
+Brain-prime demo :         https://asciinema.org/a/5S7fxXJ6IxMdcefo
 
 Brain-progression demo :     https://asciinema.org/a/4XWzyLPvZK2fvZgU
 
