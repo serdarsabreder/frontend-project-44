@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "Brain Games project",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "bin": {
     "brain-games": "bin/brain-games.js"
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/serdarsabreder/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/serdarsabreder/frontend-project-44#readme"
+  "homepage": "https://github.com/serdarsabreder/frontend-project-44#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
