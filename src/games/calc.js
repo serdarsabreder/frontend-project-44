@@ -23,7 +23,7 @@ export function generateRound() {
 
   const { result } = getOperatorAndResult(a, b, operator);
   const question = `${a} ${operator} ${b}`;
-  const correctAnswer = String(result);
+  const correctAnswer = (result);
 
   return { question, correctAnswer };
 }

@@ -4,7 +4,7 @@ export const description = 'Answer "yes" if the number is even, otherwise answer
 
 export function generateRound() {
   const number = getRandomInt(1, 100);
-  const question = String(number);
+  const question = (number);
   const correctAnswer = number % 2 === 0 ? 'yes' : 'no';
 
   return { question, correctAnswer };
