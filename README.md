@@ -1,11 +1,11 @@
 ## Доступные игры
-
+- `brain-progression` - Арифметическая прогрессия.
 - `brain-even` — проверка числа на чётность.
 - `brain-calc` — калькулятор (сложение, вычитание, умножение).
 - `brain-gcd` — наибольший общий делитель двух чисел.
 
 ## Демонстрация игр
-
+Brain-progression demo: https://asciinema.org/a/mExn62Jt5mSKV0mR
 Brain-even demo: https://asciinema.org/a/6i5XPMpMmtmCeQh2
 Brain-calc demo: https://asciinema.org/a/tU3Z4O9cNgnURyuc
 Brain-gcd demo: https://asciinema.org/a/auQziey56WHVLj4y
