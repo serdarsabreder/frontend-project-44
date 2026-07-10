@@ -13,7 +13,7 @@ export function runGame(gameDescription, generateRound) {
     console.log(`Question: ${question}`);
     const answer = readlineSync.question('Your answer: ');
 
-    if (answer !== correctAnswer) {
+    if (Number(answer) !== correctAnswer) {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
       console.log(`Let's try again, ${name}!`);
       return;
