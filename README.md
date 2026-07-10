@@ -1,3 +1,4 @@
+Brain-calc demo: https://asciinema.org/a/tU3Z4O9cNgnURyuc
  Brain-even demo:   https://asciinema.org/a/6i5XPMpMmtmCeQh2
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/serdarsabreder/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/serdarsabreder/frontend-project-44/actions)
