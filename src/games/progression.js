@@ -13,7 +13,7 @@ export const generateRound = () => {
 
   const progression = getProgression(start, step, length);
   const hiddenIndex = Math.floor(Math.random() * length);
-  const correctAnswer = progression[hiddenIndex];
+  const correctAnswer = String(progression[hiddenIndex]);
 
   progression[hiddenIndex] = '..';
   const question = progression.join(' ');

@@ -12,7 +12,7 @@ export function generateRound() {
   const a = getRandomInt(1, 100);
   const b = getRandomInt(1, 100);
 
-  const correctAnswer = (gcd(a, b));
+  const correctAnswer = String(gcd(a, b));
   const question = `${a} ${b}`;
 
   return { question, correctAnswer };
