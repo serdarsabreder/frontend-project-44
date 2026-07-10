@@ -1,10 +1,12 @@
 ## Доступные игры
+- `brain-prime` - Простое ли число?.
 - `brain-progression` - Арифметическая прогрессия.
 - `brain-even` — проверка числа на чётность.
 - `brain-calc` — калькулятор (сложение, вычитание, умножение).
 - `brain-gcd` — наибольший общий делитель двух чисел.
 
 ## Демонстрация игр
+Brain-prime demo: https://asciinema.org/a/gjF56qI2qwMhtcl4
 Brain-progression demo: https://asciinema.org/a/mExn62Jt5mSKV0mR
 Brain-even demo: https://asciinema.org/a/6i5XPMpMmtmCeQh2
 Brain-calc demo: https://asciinema.org/a/tU3Z4O9cNgnURyuc
