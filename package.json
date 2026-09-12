@@ -13,7 +13,8 @@
     "brain-prime": "./bin/brain-prime.js"
  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test",
+    "test:coverage": "mkdir -p coverage && node --test --experimental-test-coverage --test-reporter=lcov > coverage/lcov.info"
   },
   "repository": {
     "type": "git",
