@@ -13,8 +13,9 @@
 - Brain-gcd demo: https://asciinema.org/a/auQziey56WHVLj4y
 
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/serdarsabreder/frontend-project-44/actions/w$
-[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=ser$
+[![Actions Status](https://github.com/serdarsabreder/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/serdarsabreder/frontend-project-44/actions/workflows/hexlet-check.yml)
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=serdarsabreder_frontend-project-44)](https://sonarcloud.io/dashboard?id=serdarsabreder_frontend-project-44)
+[![hexlet](https://img.shields.io/badge/hexlet-passing-brightgreen)](https://hexlet.io)
 
 ## Стек
 
