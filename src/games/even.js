@@ -1,4 +1,4 @@
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+import { getRandomInt } from '../utils.js';
 
 export const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 

@@ -1,6 +1,3 @@
 #!/usr/bin/env node
-import { runGame } from '../src/index.js';
-import { generateRound, description } from '../src/games/prime.js';
-
-runGame(description, generateRound);
-
+import { launch } from '../src/games/index.js';
+launch('prime');

@@ -1,4 +1,4 @@
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+import { getRandomInt } from '../utils.js';
 
 // Алгоритм Евклида для поиска НОД
 const gcd = (a, b) => {

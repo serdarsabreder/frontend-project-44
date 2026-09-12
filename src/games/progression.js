@@ -6,6 +6,8 @@ const getProgression = (start, step, length) => {
   return progression;
 };
 
+export const description = 'What number is missing in the progression?';
+
 export const generateRound = () => {
   const length = 5 + Math.floor(Math.random() * 6); // 5–10 чисел
   const start = Math.floor(Math.random() * 10);

@@ -1,4 +1,4 @@
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+import { getRandomInt } from '../utils.js';
 
 const getOperatorAndResult = (a, b, operator) => {
   switch (operator) {
